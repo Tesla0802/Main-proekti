@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: black;
+  height: 125px;
+}
+
+header nav ul li a {
+  margin-left: 200px;
+  text-decoration: none;
+}
+header nav ul li {
+  padding-top: 37px;
+}
+header nav ul li a {
+  position: relative;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+}
+
+header nav ul li a::before {
+  content: attr(data-text);
+  position: absolute;
+  color: #fff;
+  width: 0%;
+  overflow: hidden;
+  border-right: 5px solid #fff;
+}
+
+header nav ul li a:hover::before {
+  width: 100%;
+  transition: 1s;
+  -webkit-text-stroke: 1px #fff;
+}
+
+main .banner {
+  background-image: url(https://static.wixstatic.com/media/2b08c7_232828b630964653a6229c8685ce5111f000.jpg/v1/fill/w_1346,h_530,al_c,q_85,usm_0.33_1.00_0.00/2b08c7_232828b630964653a6229c8685ce5111f000.webp);
+  background-attachment: fixed;
+  margin-top: 2px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+main .banner p {
+  color: white;
+  font-style: italic;
+  font-family: " EB Garamond", serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+main .banner span {
+  color: white;
+  font-style: italic;
+  font-family: " EB Garamond", serif;
+  margin-left: 1085px;
+  font-size: 40px;
+}
+
+main .poto {
+  background-image: url(http://www.pixelstalk.net/wp-content/uploads/2016/05/Black-Wallpapers-Image-Free-Download.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 40px;
+  height: 600px;
+  margin-top: 3px;
+}
+
+main .poto span {
+  text-decoration: underline 3px red;
+}
+
+main .poto1 span {
+  text-decoration: underline 3px red;
+}
+
+main span {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+}
+
+main p {
+  color: white;
+  font-family: " EB Garamond", serif;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li a:hover {
+  color: red;
+}
+
+main form {
+  width: 500px;
+  margin: 40px auto;
+}
+
+main form .form-select {
+  width: 500px;
+  margin-bottom: 30px;
+}
+
+div .form-text {
+  color: black;
+}
+
+main .saerto div {
+  background-image: url(https://www.wallpapertip.com/wmimgs/3-36136_dslr-background-hd-blur.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 650px;
+}
+
+main .saerto ul li {
+  list-style-type: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .saerto ul li a {
+  color: white;
+  font-size: 18px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: chocolate;
+}
+
+main .saerto button {
+  border-radius: 30px;
+  background-color: #ffc439;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 917px;
+  font-size: 20px;
+}
+
+header nav ul li a.active {
+  background: #ffc439;
+  border-radius: 20px;
+}
+
+main .middle {
+  background-image: url(https://tse2.mm.bing.net/th?id=OIP.pao4hJjd80ShEL6KanWrCAHaDM&pid=Api&P=0&w=464&h=200);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+}
+
+main .middle div {
+  background-image: url(https://static.wixstatic.com/media/2b08c7_2bf23e6511d64e79be1da155ad4caf24~mv2.jpg/v1/fill/w_404,h_600,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/2b08c7_2bf23e6511d64e79be1da155ad4caf24~mv2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 100%;
+  margin-left: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+}
+
+main .middle div button {
+  border-radius: 20px;
+  background-color: red;
+  font-style: italic;
+  font-family: fantasy;
+  font-size: 30px;
+  color: brown;
+}
+
+main .middle div button:hover {
+  background-color: white;
+}
