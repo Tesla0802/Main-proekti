@@ -1,0 +1,107 @@
+@media screen and (max-width: 1024px) {
+  main .saerto button {
+    margin-left: 800px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  main .saerto button {
+    margin-left: 700px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  main .saerto button {
+    margin-left: 600px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  main .saerto button {
+    margin-left: 500px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main .saerto button {
+    margin-left: 400px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  main .saerto button {
+    margin-left: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  main .saerto button {
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main span {
+    font-size: 1.5rem;
+  }
+  main .banner p {
+    font-size: 1.3rem;
+  }
+  header nav ul li a {
+    font-size: 1.5rem;
+  }
+  main p {
+    font-size: 1.2rem;
+  }
+  main .saerto p {
+    font-size: 0.9rem;
+  }
+  main .middle div {
+    width: 50%;
+    height: 400px;
+  }
+  main .middle div button {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  header nav ul li a {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  header nav ul li {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  main .banner p {
+    padding-left: 25px;
+  }
+  header nav ul li a {
+    font-size: 1.1rem;
+  }
+  main p {
+    padding-left: 30px;
+  }
+  main .middle div {
+    width: 80%;
+    height: 350px;
+  }
+  main .middle div button {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  main p {
+    font-size: 1rem;
+  }
+  main .middle div {
+    width: 80%;
+    height: 300px;
+  }
+}

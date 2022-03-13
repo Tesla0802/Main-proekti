@@ -10,16 +10,16 @@ header {
   height: 125px;
 }
 
-header nav ul li a {
-  margin-left: 200px;
-  text-decoration: none;
-}
 header nav ul li {
-  padding-top: 37px;
+  width: 97%;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
 }
 header nav ul li a {
+  text-decoration: none;
   position: relative;
-  font-size: 30px;
+  font-size: 2rem;
   text-transform: uppercase;
   color: transparent;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
@@ -50,6 +50,7 @@ main .banner {
 }
 
 main .banner p {
+  width: 90%;
   color: white;
   font-style: italic;
   font-family: " EB Garamond", serif;
@@ -59,12 +60,17 @@ main .banner p {
   padding-top: 200px;
 }
 
+main .banner #ralph {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 40px;
+}
+
 main .banner span {
   color: white;
   font-style: italic;
   font-family: " EB Garamond", serif;
-  margin-left: 1085px;
-  font-size: 40px;
 }
 
 main .poto {
@@ -88,13 +94,14 @@ main span {
   color: white;
   display: flex;
   justify-content: center;
-  font-size: 35px;
+  font-size: 2.4rem;
 }
 
 main p {
+  width: 90%;
   color: white;
   font-family: " EB Garamond", serif;
-  font-size: 25px;
+  font-size: 1.5rem;
   display: flex;
   justify-content: center;
 }
@@ -104,12 +111,12 @@ header nav ul li a:hover {
 }
 
 main form {
-  width: 500px;
+  width: 50%;
   margin: 40px auto;
 }
 
 main form .form-select {
-  width: 500px;
+  width: 100%;
   margin-bottom: 30px;
 }
 
@@ -131,6 +138,12 @@ main .saerto ul li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+main .saerto p {
+  width: 90%;
+  font-size: 1.2rem;
+  text-transform: uppercase;
 }
 
 main .saerto ul li a {
@@ -155,20 +168,21 @@ header nav ul li a.active {
 }
 
 main .middle {
-  background-image: url(https://tse2.mm.bing.net/th?id=OIP.pao4hJjd80ShEL6KanWrCAHaDM&pid=Api&P=0&w=464&h=200);
+  background-image: url("https://tse2.mm.bing.net/th?id=OIP.pao4hJjd80ShEL6KanWrCAHaDM&pid=Api&P=0&w=464&h=200");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 main .middle div {
-  background-image: url(https://static.wixstatic.com/media/2b08c7_2bf23e6511d64e79be1da155ad4caf24~mv2.jpg/v1/fill/w_404,h_600,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/2b08c7_2bf23e6511d64e79be1da155ad4caf24~mv2.jpg);
+  background-image: url("https://static.wixstatic.com/media/2b08c7_2bf23e6511d64e79be1da155ad4caf24~mv2.jpg/v1/fill/w_404,h_600,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/2b08c7_2bf23e6511d64e79be1da155ad4caf24~mv2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 500px;
   height: 100%;
-  margin-left: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,7 +194,7 @@ main .middle div button {
   background-color: red;
   font-style: italic;
   font-family: fantasy;
-  font-size: 30px;
+  font-size: 2rem;
   color: brown;
 }
 
